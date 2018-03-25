@@ -1,0 +1,9 @@
+Questions for this Assignment
+Please complete the tasks outlined in the instructions video. Why did you choose the approach you took? Which problems did you encounter?
+
+I created a component called the messages component, I did it this way since the common
+thing between the two components to be made as part of the assignment was that they are both
+message components. I therefore nested the error and success message components with the messages component.
+
+Problems I ran into were forgetting to reference the css sheets in the component ts, and
+not correctly nameing components per convention with the leading 'app-'.

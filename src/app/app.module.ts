@@ -6,12 +6,18 @@ import { HttpModule} from '@angular/http';
 import { AppComponent } from './app.component';
 import { ServerComponent} from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { SuccessMsgComponent} from './successMsg/successMsg.component';
+import { ErrorMsgComponent } from './error-msg/error-msg.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+    SuccessMsgComponent,
+    ErrorMsgComponent,
+    MessagesComponent
   ],
   imports: [
     FormsModule,
