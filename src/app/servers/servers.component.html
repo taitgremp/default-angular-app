@@ -1,3 +1,7 @@
+<label>User Name:</label>
+<input class="form-control" [(ngModel)]="username">
+<button class="btn btn-primary" [disabled]="username === ''" (click)="onReset()">Reset Username</button>
+<p>User Name is: {{username}}</p>
 <app-server></app-server>
 <app-server></app-server>
 <app-server></app-server>

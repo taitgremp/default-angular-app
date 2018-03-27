@@ -1,0 +1,8 @@
+Please complete the tasks outlined in the instructions video. Why did you choose the approach you took? Which problems did you encounter?
+
+I did the two way binding with [(ngModel)]. I displayed the username via string interpolation
+with the double curly brace notation in a p tag underneath the input element. I
+did it this way because its easier to read the code in the html instead of having to trace it
+back to the type script. The problems I ran in to were mixing up that [] is for
+attribute binding and () is for event binding. I also mixed up the boolean logic for the
+disabled attribute.
