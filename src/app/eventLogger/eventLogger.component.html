@@ -1,2 +1,10 @@
-<button (click)="displayP = !displayP" class="btn btn-primary">Display Details</button>
-<p>Tom Brady is the best qb of all time.</p>
+<button (click)="doEventLog()" class="btn btn-primary">Display Details</button>
+<p [hidden]="textHidden">Tom Brady is the best qb of all time.</p>
+<p [hidden]="textHidden"
+   *ngFor="let timeStamp of btnClicks"
+>{{timeStamp}}</p>
+<p [hidden]="textHidden"
+   *ngFor="let timeStamp of pastFiveClicks"
+   [ngClass]="{pastFive: true}"
+   [ngStyle]="{backgroundColor: 'blue'}"
+>{{timeStamp}}</p>
